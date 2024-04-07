@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+#output {
+    width: 30%;
+    background: #f3f3f3;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 40%);
+}
+
+button {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#text {
+    position: absolute;
+    width: 95%;
+    left: 50%;
+    transform: translate(-50%, 130%);
+}

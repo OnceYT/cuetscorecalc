@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUET Score Calc</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>CUET Score Calc</h1>
+    <form id="form1">
+        <label for="text1"><strong>Response Sheet Text:</strong></label><br>
+        <textarea id="text1" name="text1" rows="4" cols="50" required placeholder="Copy the whole Responses page (CTRL+A, CTRL+C) and paste here ..."></textarea><br><br>
+    </form>
+    <br>
+    <form id="form2">
+        <label for="text2"><strong>Answer Key Text:</strong></label><br>
+        <textarea id="text2" name="text2" rows="4" cols="50" required placeholder="Copy the whole Answer Key page (CTRL+A, CTRL+C) and paste here ..."></textarea><br><br>
+    </form>
+    <button onclick="submitForms()">Submit</button>
+    <div id="output"></div>
+    <div id="text">
+        <h3>Guidelines:</h3>
+        <ol type="1">
+            <li><strong>THIS IS NOT AN OFFICIAL TOOL!</strong> This tool is only supposed to be able to check if your own calculations are correct. As such, this tool may also make errors - <strong>ALWAYS DOUBLE CHECK ON YOUR OWN</strong>!<br><br></li>
+            <li><strong>It is only tested to be accurate on the 2024 (CUET PG) results of MBA, MCOM and LLM</strong>. Other subjects may or may not break this - <a href="https://www.example.com">Contact Me</a> if you notice anything out of the ordinary or would like to help me test on other subjects.<br><br></li>
+            <li><strong>*</strong>Dropped Questions might contain dropped questions from a different subject if your answer key contains multiple subjects.<br><br></li>
+        </ol>    
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
