@@ -6,6 +6,10 @@ form {
   text-align: center;
 }
 
+textarea {
+    width: 30%;
+}
+
 #output {
     width: 30%;
     background: #f3f3f3;
