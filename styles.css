@@ -22,9 +22,8 @@ textarea {
     textarea {
         width: 100%;
     }
-    output {
-        outline: 2px solid red;
-        width: 100%;
+    #output {
+        width: 40%;
     }
 }
 
