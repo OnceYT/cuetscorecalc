@@ -10,21 +10,22 @@ textarea {
     width: 50%;
 }
 
-@media screen and (max-width: 768px) {
-    textarea {
-        width: 100%;
-    }
-    output {
-        width: 100%;
-    }
-}
-
 #output {
     width: 30%;
     background: #f3f3f3;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 40%);
+}
+
+@media screen and (max-width: 768px) {
+    textarea {
+        width: 100%;
+    }
+    output {
+        outline: 2px solid red;
+        width: 100%;
+    }
 }
 
 button {
