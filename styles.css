@@ -14,10 +14,13 @@ textarea {
     textarea {
         width: 100%;
     }
+    output {
+        width: 100%;
+    }
 }
 
 #output {
-    width: 40%;
+    width: 30%;
     background: #f3f3f3;
     position: absolute;
     left: 50%;
